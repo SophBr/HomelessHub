@@ -47,8 +47,12 @@ a:hover .header-profile-image {
 /* =========== CUSTOM ============ */
 body {
   font-family: 'Roboto', sans-serif;
+  background-color: antiquewhite;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 2rem;
+}
 
 /* Nav */
 .navbar {
@@ -70,7 +74,7 @@ body {
   height: 100vh;
   /* margin-top: 7rem; */
   /* padding: 10rem 0;  */
-  padding: 15% 0;
+  padding: 3% 0;
 }
 
 .btn {
@@ -83,6 +87,10 @@ body {
   background-color: #29e2ae;
 }
 
+.org-dark.btn {
+  background-color: #72d3b8;
+}
+
 
 /* user */
 .user.btn {
@@ -93,3 +101,44 @@ body {
 .event .desc {
   margin-top: 3rem;
 }
+
+/* Event List */
+.list-group-item {
+  margin-bottom: 2rem;
+  padding: 4rem;
+  background: transparent;
+}
+
+.list-group-item-heading {
+  margin-bottom: 2rem;
+}
+
+/* register */
+.register, .signin {
+  margin-top: 5rem;
+}
+
+/* form */
+.form-control {
+  background: transparent;
+  border: 1px solid #9b9999;
+}
+
+/* Display page */
+.event-list {
+  margin-top: 13rem;
+}
+
+.category {
+  padding: 3rem 0;
+}
+
+.mapouter {
+  float: right;
+}
+
+/* btn */
+/* .nav > li > a:hover, .nav > li > a:focus {
+  background:transparent;
+  text-decoration: overline;
+} */

@@ -61,3 +61,11 @@ exports.renderNotFound = function (req, res) {
     }
   });
 };
+
+/**
+ * Render contact page
+ */
+
+ exports.about = function (req, res) {
+   res.render('modules/core/server/views/about');
+ }
