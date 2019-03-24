@@ -1,7 +1,19 @@
 <section class="content container">
   <div class="page-header">
-    <h1>Events</h1>
+    <img src="icon">
+    <h1 align="center">What are you looking for?</h1>
   </div>
+  
+  <div class="filters" align="center">
+    <button class="btn food" text-align="center">
+      <i class="fa fa-utensils"></i>
+    </br>
+    <span>Food</span></button>
+    <button class="btn shelter" text-align="center"><i class="fa fa-home"></i></br><span>Shelter</span></button>
+    <button class="btn courses" text-align="center"><i class="fa fa-book"></i></br><span>Courses</span></button>
+    <button class="btn health" text-align="center"><i class="fa fa-notes-medical"></i></br><span>Health</span></button>
+  </div>
+
   <div class="list-group">
     <a ng-repeat="article in vm.articles" ui-sref="articles.view({ articleId: article._id })" class="list-group-item">
       <small class="list-group-item-text">

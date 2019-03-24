@@ -46,10 +46,11 @@ a:hover .header-profile-image {
 
 /* =========== CUSTOM ============ */
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
-
-
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Domine', serif;
+}
 /* Nav */
 .navbar {
   padding-top: 1rem;
@@ -78,6 +79,9 @@ body {
   font-weight: 600;
   padding: 1rem 3.5rem;
 }
+
+
+
 /* org */
 .org.btn {
   background-color: #29e2ae;
@@ -92,4 +96,66 @@ body {
 /* Event */
 .event .desc {
   margin-top: 3rem;
+}
+
+.list-group-item-heading {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.filters{
+  padding-bottom: 15px;
+  margin-bottom: 5rem;
+}
+
+.filters .btn {
+  margin-right: 6rem;
+}
+
+.filters span {
+  margin-left: -5px;
+}
+
+.filters .fa {
+  font-size: 2.5rem;
+}
+
+.food{
+  background-color: #26c89a;
+  height: 110px;
+  width: 110px;
+  color: white;
+  margin: auto;
+  padding: auto;
+}
+
+.shelter{
+  background-color: #e2b829;
+  height: 110px;
+  width: 110px;
+  color: white;
+  margin: auto;
+  padding: auto;
+}
+
+.courses{
+  background-color: #29b4e2;
+  height: 110px;
+  width: 110px;
+  color: white;
+  margin: auto;
+  padding: auto;
+}
+
+.health{
+  background-color: #E26429;
+  height: 110px;
+  width: 110px;
+  color: white;
+  margin: auto;
+  padding: auto;
+}
+
+.navbar-brand > img {
+  width: 100px;
 }
