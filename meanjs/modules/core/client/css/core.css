@@ -178,4 +178,11 @@ h1, h2, h3, h4, h5, h6 {
 
 .home-content {
   background-color: 
+  width: 100px;
+}
+
+.us{
+  padding-left: 7rem;
+  padding-right: 7rem;
+  padding-top: 2.5rem;
 }
